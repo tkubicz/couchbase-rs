@@ -1,6 +1,6 @@
 use crate::api::collection::MutationState;
 use crate::{CouchbaseError, CouchbaseResult, ErrorContext, SearchFacet, SearchSort};
-use serde_derive::Serialize;
+use serde::Serialize;
 use serde_json::Value;
 use std::collections::HashMap;
 use std::fmt::{Debug, Display, Formatter};

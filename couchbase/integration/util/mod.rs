@@ -13,7 +13,7 @@ pub use config::{ClusterType, Config};
 use couchbase::{Bucket, Cluster, Collection, Scope, UpsertOptions};
 use log::warn;
 use serde::de::DeserializeOwned;
-use serde_derive::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize};
 use std::fmt::Debug;
 use std::fs;
 use std::future::Future;

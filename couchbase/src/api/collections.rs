@@ -3,7 +3,7 @@ use crate::io::Core;
 use crate::CouchbaseError::{CollectionExists, CollectionNotFound, ScopeExists, ScopeNotFound};
 use crate::{CouchbaseError, CouchbaseResult, ErrorContext, GenericManagementResult, ServiceType};
 use futures::channel::oneshot;
-use serde_derive::Deserialize;
+use serde::Deserialize;
 use serde_json::Value;
 use std::sync::Arc;
 use std::time::Duration;

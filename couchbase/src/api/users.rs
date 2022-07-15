@@ -2,7 +2,7 @@ use crate::io::request::*;
 use crate::io::Core;
 use crate::{CouchbaseError, CouchbaseResult, GenericManagementResult, ServiceType};
 use futures::channel::oneshot;
-use serde_derive::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize};
 use std::borrow::Borrow;
 use std::fmt::{self, Debug};
 use std::sync::Arc;

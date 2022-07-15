@@ -4,7 +4,7 @@ use crate::io::Core;
 use crate::{CouchbaseError, CouchbaseResult, GenericManagementResult, ServiceType};
 use futures::channel::oneshot;
 use serde::de::DeserializeOwned;
-use serde_derive::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize};
 use std::borrow::BorrowMut;
 use std::collections::HashMap;
 use std::sync::Arc;

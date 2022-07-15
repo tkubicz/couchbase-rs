@@ -1,5 +1,5 @@
 use crate::CouchbaseResult;
-use serde_derive::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::time::Duration;
 

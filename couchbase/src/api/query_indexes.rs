@@ -4,7 +4,7 @@ use crate::io::Core;
 use crate::{CouchbaseError, CouchbaseResult, ErrorContext};
 use futures::channel::oneshot;
 use futures::StreamExt;
-use serde_derive::Deserialize;
+use serde::Deserialize;
 use serde_json::Value;
 use std::ops::Add;
 use std::sync::Arc;

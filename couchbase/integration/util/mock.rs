@@ -4,7 +4,7 @@ use bytes::Buf;
 use couchbase::Cluster;
 use lazy_static::lazy_static;
 use log::debug;
-use serde_derive::{Deserialize, Serialize};
+use serde::{Deserialize, Serialize};
 use serde_json::Value;
 use std::collections::HashMap;
 use std::fs;

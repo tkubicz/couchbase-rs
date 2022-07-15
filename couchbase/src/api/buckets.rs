@@ -6,7 +6,7 @@ use crate::CouchbaseError::{
 };
 use crate::{CouchbaseError, CouchbaseResult, ErrorContext, GenericManagementResult, ServiceType};
 use futures::channel::oneshot;
-use serde_derive::Deserialize;
+use serde::Deserialize;
 use serde_json::Value;
 use std::collections::HashMap;
 use std::convert::TryFrom;

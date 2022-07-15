@@ -3,7 +3,7 @@ use futures::channel::mpsc::UnboundedReceiver;
 use futures::channel::oneshot::Receiver;
 use futures::{Stream, StreamExt};
 use serde::de::DeserializeOwned;
-use serde_derive::Deserialize;
+use serde::Deserialize;
 use serde_json::Value;
 
 #[derive(Debug, Deserialize)]

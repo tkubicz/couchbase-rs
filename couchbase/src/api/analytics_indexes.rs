@@ -5,7 +5,7 @@ use crate::io::Core;
 use crate::{CouchbaseError, CouchbaseResult, ErrorContext, GenericManagementResult};
 use futures::channel::oneshot;
 use futures::StreamExt;
-use serde_derive::Deserialize;
+use serde::Deserialize;
 use serde_json::Value;
 use std::collections::HashMap;
 use std::fmt::{Display, Formatter};

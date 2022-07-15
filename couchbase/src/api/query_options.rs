@@ -1,5 +1,5 @@
 use crate::api::collection::MutationState;
-use serde_derive::Serialize;
+use serde::Serialize;
 use serde_json::Value;
 use std::time::Duration;
 
